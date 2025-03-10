@@ -320,9 +320,7 @@ GameObject:
   - component: {fileID: 1288499227}
   - component: {fileID: 1288499226}
   - component: {fileID: 1288499225}
-  - component: {fileID: 1288499224}
   - component: {fileID: 1288499229}
-  - component: {fileID: 1288499230}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -330,22 +328,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1288499224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288499223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b831c5088141599498b3655e439123d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: 0
-  playerSpeed: 5.5
-  playerName: Hero
-  isGameOver: 0
 --- !u!65 &1288499225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -444,26 +426,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288499223}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4420b01826b734448856f45b8537bf0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b7a3de1bdf4fff4393543b083e75819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
---- !u!114 &1288499230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288499223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7dd845ce3aa294f9fb5089e381f026, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: 0
-  speed: 5.5
-  playerName: Hero
-  isGameOver: 0
+  speed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
